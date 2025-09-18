@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "sass": "^1.92.1"
+  },
+  "scripts": {
+    "sass": "sass styles/main.scss styles/main.css",
+    "sass:watch": "sass --watch styles/main.scss styles/main.css",
+    "sass:prod": "sass --style=compressed styles/main.scss styles/main.css"
+  }
+}
